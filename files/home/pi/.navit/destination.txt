@@ -1,0 +1,10 @@
+type=former_destination label="Gloucester"
+mg:-0x3cf7a 0x67466d
+type=former_destination label="Albany Street"
+mg:-0x3ca9c 0x673f6a
+type=former_destination label="Eastern Avenue"
+mg:-0x3c691 0x673d83
+type=former_destination label="Wellington Street"
+mg:-0x3ce2f 0x67437f
+type=former_destination label="Narberth"
+mg:-0x80c20 0x671717

@@ -1,0 +1,3 @@
+screen blanking disable {
+# echo -ne "\033[9;0]" >> /etc/issue
+}

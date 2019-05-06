@@ -1,0 +1,12 @@
+[Unit]
+Description=CarPiJ2FX launcher
+After=network.target nmbd.service winbindd.service smbd.service 
+
+[Service]
+Type=forking
+PIDFile=/var/run/carpi.pid
+ExecStart=/home/alarm/CarPiJ2FX/run.sh &
+ExecReload=/bin/kill -HUP $MAINPID
+
+[Install]
+WantedBy=multi-user.target

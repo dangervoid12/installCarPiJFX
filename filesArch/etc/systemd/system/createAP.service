@@ -1,0 +1,12 @@
+[Unit]
+Description=CarPiJ2FX launcher
+After=network.target nmbd.service winbindd.service smbd.service 
+
+[Service]
+Type=forking
+PIDFile=/var/run/carpiAP.pid
+ExecStart=/home/alarm/.carpi/createAP.sh
+ExecReload=/bin/kill -HUP $MAINPID
+
+[Install]
+WantedBy=multi-user.target
