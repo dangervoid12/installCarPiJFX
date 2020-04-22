@@ -7,6 +7,9 @@ sudo pacman -S mc unzip unrar
 #copy config.txt
 sudo cp filesArch/boot/config.txt /boot/config.txt
 sudo cp filesArch/etc/hostname /etc/hostname
+sudo cp files/etc/hostapd/* /etc/hostapd/
+sudo cp files/etc/default/* /etc/default/
+sudo cp files/etc/udhcpd.conf /etc/
 ### /boot/cmdline must have "quiet "
 
 #install splashscreen
