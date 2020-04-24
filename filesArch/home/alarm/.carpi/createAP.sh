@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo create_ap wlan0 eth0 CarPiAP myCarPi12 
+sudo create_ap wlan0 eth0 CarPiAP myCarPi12 &
