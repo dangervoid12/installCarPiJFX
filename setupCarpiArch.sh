@@ -16,7 +16,7 @@ sudo cp files/etc/udhcpd.conf /etc/
 #sudo cp files/boot.png /usr/share/plymouth/themes/pix/splash.png
 
 #copy x400 sound config
-sudo cp files/home/pi/.asoundrc /home/alarm/
+sudo cp files/home/pi/.asoundrc /etc/asound.conf
 sudo cp files/etc/modules /etc/modules
 
 #Creating ap
